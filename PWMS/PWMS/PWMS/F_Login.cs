@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using PWMS.DataClass;
 
 
 namespace PWMS
@@ -15,6 +14,7 @@ namespace PWMS
     public partial class F_Login : Form
     {
         DataClass.MyMeans MyClass = new PWMS.DataClass.MyMeans();
+
         public F_Login()
         {
             InitializeComponent();
@@ -22,13 +22,13 @@ namespace PWMS
 
         private void textName_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == '\n')
+            if (e.KeyChar == '\r')
                 textPass.Focus();
         }
 
         private void textPass_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == '\n')
+            if (e.KeyChar == '\r')
                 butLogin.Focus();
         }
 
@@ -37,14 +37,14 @@ namespace PWMS
             if (textName.Text != "" & textPass.Text != "")
             {
                 SqlDataReader temDR = MyClass.getcom("select * from tb_Login where Name='" + textName.Text.
-                    Trim() + "and Pass=" + textPass.Text.Trim() + "'");
+                    Trim() + "'and Pass='" + textPass.Text.Trim() + "'");
                 bool ifcom = temDR.Read();
                 if (ifcom)
                 {
                     DataClass.MyMeans.Login_Name = textName.Text.Trim();
                     DataClass.MyMeans.Login_ID = temDR.GetString(0);
                     DataClass.MyMeans.My_con.Dispose();
-                    DataClass.MyMeans.Login_n = (int)(this.Tag);
+                    DataClass.MyMeans.Login_n = (int)(this.Tag);   //有问题没解决
                     this.Close();
                 }
                 else
@@ -63,7 +63,24 @@ namespace PWMS
 
         private void butClose_Click(object sender, EventArgs e)
         {
-           
+            
+        }
+
+        private void F_Login_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                MyClass.con_open();  //连接数据库
+                MyClass.con_close();
+                textName.Text = "";
+                textPass.Text = "";
+
+            }
+            catch
+            {
+                MessageBox.Show("数据库连接失败。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Application.Exit();
+            }
         }
     }
 }

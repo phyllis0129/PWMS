@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Login));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textName = new System.Windows.Forms.TextBox();
@@ -39,7 +40,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(49, 103);
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
+            this.label1.Location = new System.Drawing.Point(82, 93);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 0;
@@ -48,7 +50,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 132);
+            this.label2.BackColor = System.Drawing.SystemColors.Window;
+            this.label2.Location = new System.Drawing.Point(84, 122);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 12);
             this.label2.TabIndex = 1;
@@ -56,14 +59,14 @@
             // 
             // textName
             // 
-            this.textName.Location = new System.Drawing.Point(117, 100);
+            this.textName.Location = new System.Drawing.Point(150, 90);
             this.textName.Name = "textName";
             this.textName.Size = new System.Drawing.Size(100, 21);
             this.textName.TabIndex = 2;
             // 
             // textPass
             // 
-            this.textPass.Location = new System.Drawing.Point(117, 129);
+            this.textPass.Location = new System.Drawing.Point(150, 119);
             this.textPass.Name = "textPass";
             this.textPass.PasswordChar = '*';
             this.textPass.Size = new System.Drawing.Size(100, 21);
@@ -71,17 +74,18 @@
             // 
             // butLogin
             // 
-            this.butLogin.Location = new System.Drawing.Point(68, 172);
+            this.butLogin.Location = new System.Drawing.Point(101, 162);
             this.butLogin.Name = "butLogin";
             this.butLogin.Size = new System.Drawing.Size(51, 23);
             this.butLogin.TabIndex = 4;
+            this.butLogin.Tag = "";
             this.butLogin.Text = "登录";
             this.butLogin.UseVisualStyleBackColor = true;
             this.butLogin.Click += new System.EventHandler(this.butLogin_Click);
             // 
             // butClose
             // 
-            this.butClose.Location = new System.Drawing.Point(164, 172);
+            this.butClose.Location = new System.Drawing.Point(197, 162);
             this.butClose.Name = "butClose";
             this.butClose.Size = new System.Drawing.Size(53, 23);
             this.butClose.TabIndex = 5;
@@ -93,7 +97,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 266);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(351, 211);
             this.Controls.Add(this.butClose);
             this.Controls.Add(this.butLogin);
             this.Controls.Add(this.textPass);
@@ -101,7 +106,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "F_Login";
+            this.Tag = "127";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.F_Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

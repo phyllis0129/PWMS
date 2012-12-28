@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{80DD8D40-6109-450B-8141-DE259C97254E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -61,6 +61,85 @@
     <Compile Include="F_Main.Designer.cs">
       <DependentUpon>F_Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="InfoAddForm\F_Address.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoAddForm\F_Address.Designer.cs">
+      <DependentUpon>F_Address.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoAddForm\F_Basic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoAddForm\F_Basic.Designer.cs">
+      <DependentUpon>F_Basic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoAddForm\F_ClewSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoAddForm\F_ClewSet.Designer.cs">
+      <DependentUpon>F_ClewSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleClass\MyModule.cs" />
+    <Compile Include="PerForm\F_AddressList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_AddressList.Designer.cs">
+      <DependentUpon>F_AddressList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm\F_ClearData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_ClearData.Designer.cs">
+      <DependentUpon>F_ClearData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm\F_Find.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_Find.Designer.cs">
+      <DependentUpon>F_Find.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm\F_HaveBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_HaveBack.Designer.cs">
+      <DependentUpon>F_HaveBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm\F_ManFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_ManFile.Designer.cs">
+      <DependentUpon>F_ManFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm\F_Stat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_Stat.Designer.cs">
+      <DependentUpon>F_Stat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm\F_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_User.Designer.cs">
+      <DependentUpon>F_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm\F_UserAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_UserAdd.Designer.cs">
+      <DependentUpon>F_UserAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm\F_UserPope.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_UserPope.Designer.cs">
+      <DependentUpon>F_UserPope.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm\F_WordPad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm\F_WordPad.Designer.cs">
+      <DependentUpon>F_WordPad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="F_Login.resx">
@@ -68,6 +147,57 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_Main.resx">
       <DependentUpon>F_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoAddForm\F_Address.resx">
+      <DependentUpon>F_Address.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoAddForm\F_Basic.resx">
+      <DependentUpon>F_Basic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoAddForm\F_ClewSet.resx">
+      <DependentUpon>F_ClewSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_AddressList.resx">
+      <DependentUpon>F_AddressList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_ClearData.resx">
+      <DependentUpon>F_ClearData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_Find.resx">
+      <DependentUpon>F_Find.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_HaveBack.resx">
+      <DependentUpon>F_HaveBack.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_ManFile.resx">
+      <DependentUpon>F_ManFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_Stat.resx">
+      <DependentUpon>F_Stat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_User.resx">
+      <DependentUpon>F_User.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_UserAdd.resx">
+      <DependentUpon>F_UserAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_UserPope.resx">
+      <DependentUpon>F_UserPope.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm\F_WordPad.resx">
+      <DependentUpon>F_WordPad.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -92,11 +222,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Image\abc.jpg" />
-    <None Include="Resources\abc.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Database\" />
-    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

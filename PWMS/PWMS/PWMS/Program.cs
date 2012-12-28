@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
+
 namespace PWMS
 {
     static class Program
@@ -15,7 +16,7 @@ namespace PWMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new F_Login());
+            Application.Run(new F_Main());
             
         }
     }
