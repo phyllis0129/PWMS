@@ -63,7 +63,14 @@ namespace PWMS
 
         private void butClose_Click(object sender, EventArgs e)
         {
-            
+            if ((int)(this.Tag) == 1)
+            {
+                DataClass.MyMeans.Login_n = 3;
+                Application.Exit();
+            }
+            else
+                if ((int)(this.Tag) == 2)
+                    this.Close();
         }
 
         private void F_Login_Load(object sender, EventArgs e)

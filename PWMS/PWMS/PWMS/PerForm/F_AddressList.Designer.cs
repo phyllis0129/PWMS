@@ -195,6 +195,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "F_AddressList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_AddressList";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

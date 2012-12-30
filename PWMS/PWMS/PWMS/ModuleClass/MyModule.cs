@@ -180,5 +180,104 @@ namespace PWMS.ModuleClass
             }
             #endregion
         }
+
+        public void CoPassData(ComboBox cobox, string TableName)     //向comboBox控件传递数据表中的数据
+        {
+            cobox.Items.Clear();
+            DataClass.MyMeans MyDataClsaa = new PWMS.DataClass.MyMeans();
+            SqlDataReader MyDR = MyDataClsaa.getcom("select * from " + TableName);
+            if (MyDR.HasRows)
+            {
+                while (MyDR.Read())
+                {
+                    if (MyDR[1].ToString() != "" && MyDR[1].ToString() != null)
+                        cobox.Items.Add(MyDR[1].ToString());
+                }
+            }
+        }
+
+        public void CityInfo(ComboBox cobox, string SQLstr, int n)   //向comboBox控件传递各省市的名称
+        {
+            cobox.Items.Clear();
+           // DataClass.MyMeans MyDataClsaa = new PWMS.DataClass.MyMeans();
+            SqlDataReader MyDR = MyDataClass.getcom(SQLstr);
+            if (MyDR.HasRows)
+            {
+                while (MyDR.Read())
+                {
+                    if (MyDR[n].ToString() != "" && MyDR[n].ToString() != null)
+                        cobox.Items.Add(MyDR[n].ToString());
+                }
+            }
+        }
+
+        public string Date_Format(string NDate)   //将日期转换成指定的格式
+        {
+            string sm, sd;
+            int y, m, d;
+            
+            try
+            {
+                y = Convert.ToDateTime(NDate).Year;
+                m = Convert.ToDateTime(NDate).Month;
+                d = Convert.ToDateTime(NDate).Day;
+            }
+            catch
+            {
+                return "";
+            }
+            if (y == 1900)
+                return "";
+            if (m < 10)
+                sm = "0" + Convert.ToString(m);
+            else
+                sm = Convert.ToString(m);
+            if (d < 10)
+                sd = "0" + Convert.ToString(d);
+            else
+                sd = Convert.ToString(d);
+            return Convert.ToString(y) + "-" + sm + "-" + sd;
+        }
+
+        public void MaskedTextBox_Format(MaskedTextBox MTBox)   //设置MaskedTextBox控件的格式
+        {
+            MTBox.Mask = "0000-00-00";
+            MTBox.ValidatingType = typeof(System.DateTime);
+        }
+
+        public void Clear_Control(Control.ControlCollection Con)   //清空可视化控件中的信息
+        {
+            foreach (Control C in Con)
+            {
+                if (C.GetType().Name == "TextBox")
+                    if (((TextBox)C).Visible == true)
+                        ((TextBox)C).Clear();
+                if (C.GetType().Name == "MaskedTextBox")
+                    if (((MaskedTextBox)C).Visible == true)
+                        ((MaskedTextBox)C).Clear();
+                if (C.GetType().Name == "ComboBox")
+                    if (((ComboBox)C).Visible == true)
+                        ((ComboBox)C).Text = "";
+            }
+        }
+        public string GetAutocoding(string TableName, string ID)
+        {
+            SqlDataReader myDr = MyDataClass.getcom("select max(" + ID + ") NID from " + TableName);
+            int Num = 0;
+            if (myDr.HasRows)
+            {
+                myDr.Read();
+                if (myDr[0].ToString() == "")
+                    return "0001";
+                Num = Convert.ToInt32(myDr[0].ToString());
+                ++Num;
+                string s = string.Format("{0:0000}", Num);
+                return s;
+            }
+            else
+                return "0001";
+        }
+
+
     }
 }

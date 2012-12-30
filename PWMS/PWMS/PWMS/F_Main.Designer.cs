@@ -100,7 +100,7 @@
             this.系统管理ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(768, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(770, 25);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -110,7 +110,7 @@
             this.toolStripMenuItem1,
             this.toolStripMenuItem2});
             this.基础信息管理ToolStripMenuItem.Name = "基础信息管理ToolStripMenuItem";
-            this.基础信息管理ToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.基础信息管理ToolStripMenuItem.Size = new System.Drawing.Size(92, 21);
             this.基础信息管理ToolStripMenuItem.Text = "基础信息管理";
             // 
             // toolStripMenuItem1
@@ -127,76 +127,76 @@
             this.奖惩类别设置ToolStripMenuItem,
             this.记事本类别设置ToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1.Text = "基础数据";
             // 
             // 民族类别设置ToolStripMenuItem
             // 
             this.民族类别设置ToolStripMenuItem.Name = "民族类别设置ToolStripMenuItem";
-            this.民族类别设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.民族类别设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.民族类别设置ToolStripMenuItem.Text = "民族类别设置";
             this.民族类别设置ToolStripMenuItem.Click += new System.EventHandler(this.民族类别设置ToolStripMenuItem_Click);
             // 
             // 职工类别设置ToolStripMenuItem
             // 
             this.职工类别设置ToolStripMenuItem.Name = "职工类别设置ToolStripMenuItem";
-            this.职工类别设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.职工类别设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.职工类别设置ToolStripMenuItem.Text = "职工类别设置";
             this.职工类别设置ToolStripMenuItem.Click += new System.EventHandler(this.职工类别设置ToolStripMenuItem_Click);
             // 
             // 文化程度设置ToolStripMenuItem
             // 
             this.文化程度设置ToolStripMenuItem.Name = "文化程度设置ToolStripMenuItem";
-            this.文化程度设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.文化程度设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.文化程度设置ToolStripMenuItem.Text = "文化程度设置";
             this.文化程度设置ToolStripMenuItem.Click += new System.EventHandler(this.文化程度设置ToolStripMenuItem_Click);
             // 
             // 政治面貌设置ToolStripMenuItem
             // 
             this.政治面貌设置ToolStripMenuItem.Name = "政治面貌设置ToolStripMenuItem";
-            this.政治面貌设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.政治面貌设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.政治面貌设置ToolStripMenuItem.Text = "政治面貌设置";
             this.政治面貌设置ToolStripMenuItem.Click += new System.EventHandler(this.政治面貌设置ToolStripMenuItem_Click);
             // 
             // 部门类别设置ToolStripMenuItem
             // 
             this.部门类别设置ToolStripMenuItem.Name = "部门类别设置ToolStripMenuItem";
-            this.部门类别设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.部门类别设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.部门类别设置ToolStripMenuItem.Text = "部门类别设置";
             this.部门类别设置ToolStripMenuItem.Click += new System.EventHandler(this.部门类别设置ToolStripMenuItem_Click);
             // 
             // 工资类别设置ToolStripMenuItem
             // 
             this.工资类别设置ToolStripMenuItem.Name = "工资类别设置ToolStripMenuItem";
-            this.工资类别设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.工资类别设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.工资类别设置ToolStripMenuItem.Text = "工资类别设置";
             this.工资类别设置ToolStripMenuItem.Click += new System.EventHandler(this.工资类别设置ToolStripMenuItem_Click);
             // 
             // 职务类别设置ToolStripMenuItem
             // 
             this.职务类别设置ToolStripMenuItem.Name = "职务类别设置ToolStripMenuItem";
-            this.职务类别设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.职务类别设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.职务类别设置ToolStripMenuItem.Text = "职务类别设置";
             this.职务类别设置ToolStripMenuItem.Click += new System.EventHandler(this.职务类别设置ToolStripMenuItem_Click);
             // 
             // 职称类别设置ToolStripMenuItem
             // 
             this.职称类别设置ToolStripMenuItem.Name = "职称类别设置ToolStripMenuItem";
-            this.职称类别设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.职称类别设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.职称类别设置ToolStripMenuItem.Text = "职称类别设置";
             this.职称类别设置ToolStripMenuItem.Click += new System.EventHandler(this.职称类别设置ToolStripMenuItem_Click);
             // 
             // 奖惩类别设置ToolStripMenuItem
             // 
             this.奖惩类别设置ToolStripMenuItem.Name = "奖惩类别设置ToolStripMenuItem";
-            this.奖惩类别设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.奖惩类别设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.奖惩类别设置ToolStripMenuItem.Text = "奖惩类别设置";
             this.奖惩类别设置ToolStripMenuItem.Click += new System.EventHandler(this.奖惩类别设置ToolStripMenuItem_Click);
             // 
             // 记事本类别设置ToolStripMenuItem
             // 
             this.记事本类别设置ToolStripMenuItem.Name = "记事本类别设置ToolStripMenuItem";
-            this.记事本类别设置ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.记事本类别设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.记事本类别设置ToolStripMenuItem.Text = "记事本类别设置";
             this.记事本类别设置ToolStripMenuItem.Click += new System.EventHandler(this.记事本类别设置ToolStripMenuItem_Click);
             // 
@@ -206,19 +206,19 @@
             this.toolStripMenuItem3,
             this.toolStripMenuItem4});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem2.Text = "员工提示信息";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem3.Text = "员工生日提示";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem4.Text = "员工合同提示";
             // 
             // 人事管理ToolStripMenuItem
@@ -228,27 +228,27 @@
             this.人事资料查询ToolStripMenuItem,
             this.人事资料统计ToolStripMenuItem});
             this.人事管理ToolStripMenuItem.Name = "人事管理ToolStripMenuItem";
-            this.人事管理ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.人事管理ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.人事管理ToolStripMenuItem.Text = "人事管理";
             // 
             // 人事档案管理ToolStripMenuItem
             // 
             this.人事档案管理ToolStripMenuItem.Name = "人事档案管理ToolStripMenuItem";
-            this.人事档案管理ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.人事档案管理ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.人事档案管理ToolStripMenuItem.Text = "人事档案管理";
             this.人事档案管理ToolStripMenuItem.Click += new System.EventHandler(this.人事档案管理ToolStripMenuItem_Click);
             // 
             // 人事资料查询ToolStripMenuItem
             // 
             this.人事资料查询ToolStripMenuItem.Name = "人事资料查询ToolStripMenuItem";
-            this.人事资料查询ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.人事资料查询ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.人事资料查询ToolStripMenuItem.Text = "人事资料查询";
             this.人事资料查询ToolStripMenuItem.Click += new System.EventHandler(this.人事资料查询ToolStripMenuItem_Click);
             // 
             // 人事资料统计ToolStripMenuItem
             // 
             this.人事资料统计ToolStripMenuItem.Name = "人事资料统计ToolStripMenuItem";
-            this.人事资料统计ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.人事资料统计ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.人事资料统计ToolStripMenuItem.Text = "人事资料统计";
             this.人事资料统计ToolStripMenuItem.Click += new System.EventHandler(this.人事资料统计ToolStripMenuItem_Click);
             // 
@@ -258,20 +258,20 @@
             this.日常记事ToolStripMenuItem,
             this.通讯录ToolStripMenuItem});
             this.备忘记录ToolStripMenuItem.Name = "备忘记录ToolStripMenuItem";
-            this.备忘记录ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.备忘记录ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.备忘记录ToolStripMenuItem.Text = "备忘记录";
             // 
             // 日常记事ToolStripMenuItem
             // 
             this.日常记事ToolStripMenuItem.Name = "日常记事ToolStripMenuItem";
-            this.日常记事ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.日常记事ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.日常记事ToolStripMenuItem.Text = "日常记事";
             this.日常记事ToolStripMenuItem.Click += new System.EventHandler(this.日常记事ToolStripMenuItem_Click);
             // 
             // 通讯录ToolStripMenuItem
             // 
             this.通讯录ToolStripMenuItem.Name = "通讯录ToolStripMenuItem";
-            this.通讯录ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.通讯录ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.通讯录ToolStripMenuItem.Text = "通讯录";
             this.通讯录ToolStripMenuItem.Click += new System.EventHandler(this.通讯录ToolStripMenuItem_Click);
             // 
@@ -281,20 +281,20 @@
             this.备份还原数据库ToolStripMenuItem,
             this.清空数据库ToolStripMenuItem});
             this.数据库维护ToolStripMenuItem.Name = "数据库维护ToolStripMenuItem";
-            this.数据库维护ToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.数据库维护ToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
             this.数据库维护ToolStripMenuItem.Text = "数据库维护";
             // 
             // 备份还原数据库ToolStripMenuItem
             // 
             this.备份还原数据库ToolStripMenuItem.Name = "备份还原数据库ToolStripMenuItem";
-            this.备份还原数据库ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.备份还原数据库ToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.备份还原数据库ToolStripMenuItem.Text = "备份/还原数据库";
             this.备份还原数据库ToolStripMenuItem.Click += new System.EventHandler(this.备份还原数据库ToolStripMenuItem_Click);
             // 
             // 清空数据库ToolStripMenuItem
             // 
             this.清空数据库ToolStripMenuItem.Name = "清空数据库ToolStripMenuItem";
-            this.清空数据库ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.清空数据库ToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.清空数据库ToolStripMenuItem.Text = "清空数据库";
             this.清空数据库ToolStripMenuItem.Click += new System.EventHandler(this.清空数据库ToolStripMenuItem_Click);
             // 
@@ -304,20 +304,20 @@
             this.记事本ToolStripMenuItem,
             this.计算器ToolStripMenuItem});
             this.工具管理ToolStripMenuItem.Name = "工具管理ToolStripMenuItem";
-            this.工具管理ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.工具管理ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.工具管理ToolStripMenuItem.Text = "管理工具";
             // 
             // 记事本ToolStripMenuItem
             // 
             this.记事本ToolStripMenuItem.Name = "记事本ToolStripMenuItem";
-            this.记事本ToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.记事本ToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.记事本ToolStripMenuItem.Text = "记事本";
             this.记事本ToolStripMenuItem.Click += new System.EventHandler(this.记事本ToolStripMenuItem_Click);
             // 
             // 计算器ToolStripMenuItem
             // 
             this.计算器ToolStripMenuItem.Name = "计算器ToolStripMenuItem";
-            this.计算器ToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.计算器ToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.计算器ToolStripMenuItem.Text = "计算器";
             this.计算器ToolStripMenuItem.Click += new System.EventHandler(this.计算器ToolStripMenuItem_Click);
             // 
@@ -328,27 +328,27 @@
             this.用户设置ToolStripMenuItem,
             this.系统退出ToolStripMenuItem});
             this.系统管理ToolStripMenuItem.Name = "系统管理ToolStripMenuItem";
-            this.系统管理ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.系统管理ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.系统管理ToolStripMenuItem.Text = "系统管理";
             // 
             // 重新登录ToolStripMenuItem
             // 
             this.重新登录ToolStripMenuItem.Name = "重新登录ToolStripMenuItem";
-            this.重新登录ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.重新登录ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.重新登录ToolStripMenuItem.Text = "重新登录";
             this.重新登录ToolStripMenuItem.Click += new System.EventHandler(this.重新登录ToolStripMenuItem_Click);
             // 
             // 用户设置ToolStripMenuItem
             // 
             this.用户设置ToolStripMenuItem.Name = "用户设置ToolStripMenuItem";
-            this.用户设置ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.用户设置ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.用户设置ToolStripMenuItem.Text = "用户设置";
             this.用户设置ToolStripMenuItem.Click += new System.EventHandler(this.用户设置ToolStripMenuItem_Click);
             // 
             // 系统退出ToolStripMenuItem
             // 
             this.系统退出ToolStripMenuItem.Name = "系统退出ToolStripMenuItem";
-            this.系统退出ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.系统退出ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.系统退出ToolStripMenuItem.Text = "系统退出";
             this.系统退出ToolStripMenuItem.Click += new System.EventHandler(this.系统退出ToolStripMenuItem_Click);
             // 
@@ -361,9 +361,9 @@
             this.toolStripButton10,
             this.toolStripButton11,
             this.toolStripButton12});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 25);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(768, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(770, 25);
             this.toolStrip1.TabIndex = 6;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -372,7 +372,7 @@
             this.toolStripButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton7.Image")));
             this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton7.Name = "toolStripButton7";
-            this.toolStripButton7.Size = new System.Drawing.Size(97, 22);
+            this.toolStripButton7.Size = new System.Drawing.Size(100, 22);
             this.toolStripButton7.Text = "人事档案管理";
             this.toolStripButton7.Click += new System.EventHandler(this.toolStripButton7_Click);
             // 
@@ -381,7 +381,7 @@
             this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
             this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.Size = new System.Drawing.Size(97, 22);
+            this.toolStripButton8.Size = new System.Drawing.Size(100, 22);
             this.toolStripButton8.Text = "人事资料查询";
             this.toolStripButton8.Click += new System.EventHandler(this.toolStripButton8_Click);
             // 
@@ -390,7 +390,7 @@
             this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
             this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton9.Name = "toolStripButton9";
-            this.toolStripButton9.Size = new System.Drawing.Size(97, 22);
+            this.toolStripButton9.Size = new System.Drawing.Size(100, 22);
             this.toolStripButton9.Text = "员工合同提示";
             this.toolStripButton9.Click += new System.EventHandler(this.toolStripButton9_Click);
             // 
@@ -399,7 +399,7 @@
             this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
             this.toolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton10.Name = "toolStripButton10";
-            this.toolStripButton10.Size = new System.Drawing.Size(61, 22);
+            this.toolStripButton10.Size = new System.Drawing.Size(64, 22);
             this.toolStripButton10.Text = "通讯录";
             this.toolStripButton10.Click += new System.EventHandler(this.toolStripButton10_Click);
             // 
@@ -408,7 +408,7 @@
             this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
             this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton11.Name = "toolStripButton11";
-            this.toolStripButton11.Size = new System.Drawing.Size(73, 22);
+            this.toolStripButton11.Size = new System.Drawing.Size(76, 22);
             this.toolStripButton11.Text = "日常记事";
             this.toolStripButton11.Click += new System.EventHandler(this.toolStripButton11_Click_1);
             // 
@@ -417,7 +417,7 @@
             this.toolStripButton12.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton12.Image")));
             this.toolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton12.Name = "toolStripButton12";
-            this.toolStripButton12.Size = new System.Drawing.Size(73, 22);
+            this.toolStripButton12.Size = new System.Drawing.Size(76, 22);
             this.toolStripButton12.Text = "退出系统";
             this.toolStripButton12.Click += new System.EventHandler(this.toolStripButton12_Click);
             // 
@@ -494,20 +494,20 @@
             this.toolStripStatusLabel3});
             this.statusStrip1.Location = new System.Drawing.Point(0, 438);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(768, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(770, 22);
             this.statusStrip1.TabIndex = 11;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(173, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(164, 17);
             this.toolStripStatusLabel1.Text = "||欢迎使用企业人事管理系统||";
             // 
             // toolStripStatusLabel2
             // 
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(89, 17);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(92, 17);
             this.toolStripStatusLabel2.Text = "当前登录用户：";
             // 
             // toolStripStatusLabel3
@@ -520,14 +520,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 460);
+            this.ClientSize = new System.Drawing.Size(770, 460);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.IsMdiContainer = true;
             this.Name = "F_Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_Main";
             this.Load += new System.EventHandler(this.F_Main_Load);
             this.menuStrip1.ResumeLayout(false);

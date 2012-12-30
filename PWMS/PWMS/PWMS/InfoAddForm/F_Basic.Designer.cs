@@ -149,6 +149,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "F_Basic";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_Basic";
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

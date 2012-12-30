@@ -322,6 +322,7 @@
             this.Controls.Add(this.ALL_Table);
             this.Controls.Add(this.groupBox1);
             this.Name = "F_ClearData";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_ClearData";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

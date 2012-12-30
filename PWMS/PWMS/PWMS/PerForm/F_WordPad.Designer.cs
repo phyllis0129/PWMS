@@ -306,6 +306,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Name = "F_WordPad";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_WordPad";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

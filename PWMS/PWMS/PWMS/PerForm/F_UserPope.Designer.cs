@@ -414,6 +414,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.User_Close);
             this.Name = "F_UserPope";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_UserPope";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

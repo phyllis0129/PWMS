@@ -145,6 +145,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 20);
             this.comboBox2.TabIndex = 3;
+            this.comboBox2.TextChanged += new System.EventHandler(this.comboBox2_TextChanged);
             // 
             // label2
             // 
@@ -182,6 +183,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(91, 20);
             this.comboBox1.TabIndex = 0;
+            this.comboBox1.TextChanged += new System.EventHandler(this.comboBox1_TextChanged);
             // 
             // groupBox2
             // 
@@ -295,6 +297,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "显示所有信息";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -320,21 +323,25 @@
             // 
             // Sut_Save
             // 
+            this.Sut_Save.Enabled = false;
             this.Sut_Save.Location = new System.Drawing.Point(446, 10);
             this.Sut_Save.Name = "Sut_Save";
             this.Sut_Save.Size = new System.Drawing.Size(61, 23);
             this.Sut_Save.TabIndex = 5;
             this.Sut_Save.Text = "保存";
             this.Sut_Save.UseVisualStyleBackColor = true;
+            this.Sut_Save.Click += new System.EventHandler(this.Sut_Save_Click);
             // 
             // Sut_Cancel
             // 
+            this.Sut_Cancel.Enabled = false;
             this.Sut_Cancel.Location = new System.Drawing.Point(382, 10);
             this.Sut_Cancel.Name = "Sut_Cancel";
             this.Sut_Cancel.Size = new System.Drawing.Size(58, 23);
             this.Sut_Cancel.TabIndex = 4;
             this.Sut_Cancel.Text = "取消";
             this.Sut_Cancel.UseVisualStyleBackColor = true;
+            this.Sut_Cancel.Click += new System.EventHandler(this.Sut_Cancel_Click);
             // 
             // Sut_Delete
             // 
@@ -344,6 +351,7 @@
             this.Sut_Delete.TabIndex = 3;
             this.Sut_Delete.Text = "删除";
             this.Sut_Delete.UseVisualStyleBackColor = true;
+            this.Sut_Delete.Click += new System.EventHandler(this.Sut_Delete_Click);
             // 
             // Sut_Amend
             // 
@@ -353,6 +361,7 @@
             this.Sut_Amend.TabIndex = 2;
             this.Sut_Amend.Text = "修改";
             this.Sut_Amend.UseVisualStyleBackColor = true;
+            this.Sut_Amend.Click += new System.EventHandler(this.Sut_Amend_Click);
             // 
             // Sut_Add
             // 
@@ -362,6 +371,7 @@
             this.Sut_Add.TabIndex = 1;
             this.Sut_Add.Text = "添加";
             this.Sut_Add.UseVisualStyleBackColor = true;
+            this.Sut_Add.Click += new System.EventHandler(this.Sut_Add_Click);
             // 
             // Sub_Table
             // 
@@ -444,10 +454,10 @@
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Location = new System.Drawing.Point(4, 21);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(527, 397);
+            this.tabPage1.Size = new System.Drawing.Size(527, 396);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "职工基本信息";
             // 
@@ -774,6 +784,7 @@
             this.S_23.Name = "S_23";
             this.S_23.Size = new System.Drawing.Size(65, 20);
             this.S_23.TabIndex = 25;
+            this.S_23.SelectedIndexChanged += new System.EventHandler(this.S_23_SelectedIndexChanged);
             // 
             // label15
             // 
@@ -961,7 +972,9 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "F_ManFile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "人事档案管理";
             this.Load += new System.EventHandler(this.F_ManFile_Load);
             this.groupBox1.ResumeLayout(false);

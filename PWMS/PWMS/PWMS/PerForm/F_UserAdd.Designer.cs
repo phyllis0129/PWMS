@@ -118,6 +118,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "F_UserAdd";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_UserAdd";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

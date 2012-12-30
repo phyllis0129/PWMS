@@ -221,10 +221,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Image\abc.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Database\" />
+    <Folder Include="Image\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

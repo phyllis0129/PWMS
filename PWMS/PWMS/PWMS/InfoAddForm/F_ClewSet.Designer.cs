@@ -115,6 +115,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
             this.Name = "F_ClewSet";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_ClewSet";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

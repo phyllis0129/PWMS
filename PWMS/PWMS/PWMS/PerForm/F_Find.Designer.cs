@@ -662,6 +662,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "F_Find";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "人事资料查询";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

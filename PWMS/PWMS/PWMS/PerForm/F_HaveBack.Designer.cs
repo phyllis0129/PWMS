@@ -39,12 +39,12 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -156,34 +156,14 @@
             this.tabPage2.Text = "还原数据库";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // openFileDialog1
+            // button6
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "还原路径：";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(77, 37);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(152, 21);
-            this.textBox3.TabIndex = 1;
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.Location = new System.Drawing.Point(235, 34);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(27, 25);
-            this.button4.TabIndex = 2;
-            this.button4.UseVisualStyleBackColor = true;
+            this.button6.Location = new System.Drawing.Point(202, 65);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(60, 23);
+            this.button6.TabIndex = 4;
+            this.button6.Text = "取消";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -194,14 +174,34 @@
             this.button5.Text = "还原";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // button4
             // 
-            this.button6.Location = new System.Drawing.Point(202, 65);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(60, 23);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "取消";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.Location = new System.Drawing.Point(235, 34);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(27, 25);
+            this.button4.TabIndex = 2;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(77, 37);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(152, 21);
+            this.textBox3.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "还原路径：";
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // F_HaveBack
             // 
@@ -210,6 +210,7 @@
             this.ClientSize = new System.Drawing.Size(307, 147);
             this.Controls.Add(this.tabControl1);
             this.Name = "F_HaveBack";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "备份/还原数据库";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

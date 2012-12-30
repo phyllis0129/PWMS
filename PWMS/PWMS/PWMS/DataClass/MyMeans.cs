@@ -14,7 +14,7 @@ namespace PWMS.DataClass
         public static string Login_Name = "";
         public static string Mean_SQL = "", Mean_Table = "", Mean_Field = "";
         public static SqlConnection My_con;
-        public static string sqlConn1 = "server =PC3_29;Integrated Security=SSPI;database = db_PWMS";
+        public static string sqlConn1 = "server =.;Integrated Security=SSPI;database = db_PWMS";
         public static int Login_n = 0;
         public static string AllSql = "Select * from tb_Stuffbusic";
 
